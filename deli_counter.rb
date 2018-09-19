@@ -4,7 +4,7 @@ def line(katz_deli)
   elsif katz_deli.length > 0 
     puts "The line is currently: "
 end  
-
+end
 
 def take_a_number(katz_deli,customer)
   katz_deli.push(customer)
