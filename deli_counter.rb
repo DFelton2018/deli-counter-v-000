@@ -10,3 +10,4 @@ def line(katz_deli)
     puts "The line is currently: #{i+1}. #{v} "
   end
 end
+end
