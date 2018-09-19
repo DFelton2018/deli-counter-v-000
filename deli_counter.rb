@@ -8,7 +8,7 @@ def line(katz_deli)
   while 
     count = 1
     katz_deli.each do |v| 
-    puts "The line is currently: #{count}. #{v[0..-1]} "
+    puts "The line is currently: #{count}. #{v[0..2]} "
     count += 1
   end
 end
