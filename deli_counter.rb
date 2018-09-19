@@ -12,5 +12,4 @@ def line(katz_deli)
     puts "The line is currently: #{index+1}. #{item} "
    end 
  end
-end
-end
+
