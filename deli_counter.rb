@@ -12,7 +12,7 @@ def line(katz_deli)
     puts "The line is currently: #{index+1}. #{item} "
    end 
 end  
-end
+
 
 def take_a_number(katz_deli,customer)
   katz_deli.push(customer)
