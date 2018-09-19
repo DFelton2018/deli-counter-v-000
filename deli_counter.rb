@@ -11,7 +11,7 @@ def line(katz_deli)
     katz_deli.each_with_index do |item, index|
     puts "The line is currently: #{index+1}. #{item} "
    end 
-end  
+ 
 
 
 def take_a_number(katz_deli,customer)
