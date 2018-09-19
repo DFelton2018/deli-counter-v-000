@@ -5,9 +5,11 @@
 # x.each_with_index { |v, i| puts "current index...#{i}" }
 
 def line(katz_deli)
+  count = katz_deli.length
   while katz_deli.length > 0
-  katz_deli.each_with_index do |v, i| 
-    puts "The line is currently: #{i+1}. #{v} "
+  katz_deli.each do |v| 
+    puts "The line is currently: #{count}. #{v} "
+    count += 1
   end
 end
 end
